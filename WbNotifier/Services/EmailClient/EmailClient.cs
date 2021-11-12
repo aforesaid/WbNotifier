@@ -30,7 +30,7 @@ namespace WbNotifier.Services.EmailClient
             {
                 var mail = new MailMessage
                 {
-                    From = _configuration.From,
+                    From = new MailAddress(_configuration.Email),
                     Subject = _configuration.Subject,
                     SubjectEncoding = Encoding.UTF8,
                     Body = message,

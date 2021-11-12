@@ -1,4 +1,5 @@
 ﻿using System.Net.Mail;
+using System.Text.Json.Serialization;
 
 namespace WbNotifier.Services.EmailClient
 {
@@ -25,7 +26,5 @@ namespace WbNotifier.Services.EmailClient
         public string Password { get; set; }
         public string DisplayNameEmail { get; set; }
         public string Subject { get; set; }
-
-        public MailAddress From => new(Email, DisplayNameEmail);
     }
 }

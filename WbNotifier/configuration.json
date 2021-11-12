@@ -1,0 +1,13 @@
+﻿{
+  "MAIL": {
+    "Host": "host",
+    "Email": "email",
+    "Password": "pswd",
+    "DisplayNameEmail": "dne",
+    "Subject": "sbjct"
+  },
+  "WB": {
+    "ApiSpecToken": "token"
+  },
+  "EMAILTO": "emailTo"
+}
